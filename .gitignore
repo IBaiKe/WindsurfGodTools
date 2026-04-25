@@ -1,0 +1,33 @@
+node_modules/
+.env
+accounts.json
+proxy.json
+runtime-config.json
+stats.json
+data/
+logs/
+*.log
+
+# Local scripts & tools
+sshpass.sh
+sshpass2.sh
+deploy-us.py
+deploy-main.py
+src/get-token.js
+src/test-cascade.js
+src/runtime-config.json
+
+# IDE & toolchain
+.DS_Store
+.playwright-mcp/
+.claude/
+.windsurf/
+__pycache__/
+
+# Local-only content
+windsurf-api/
+windsurfcc/
+token.rtf
+*.rtf
+CLAUDE.md
+image/

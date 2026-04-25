@@ -1,0 +1,28 @@
+{
+  "name": "windsurf-god-tools",
+  "version": "1.8.0",
+  "description": "Windsurf → OpenAI / Anthropic compatible proxy with multi-account pool, token/credit stats, and admin dashboard.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "find src -name '*.js' -type f -exec node --check {} +"
+  },
+  "keywords": [
+    "windsurf",
+    "codeium",
+    "openai",
+    "anthropic",
+    "proxy",
+    "api",
+    "language-server"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "",
+  "contributors": [],
+  "private": true
+}
